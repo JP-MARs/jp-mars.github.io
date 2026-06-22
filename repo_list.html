@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Project JP-MARs</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<link href="css/style.css" rel="stylesheet" media="all">
+</head>
+<body>
+<div id="container">
+  <header id="header">
+    <h1>Project JP-MARs  - A Open Source project for Research & Education - </h1>
+  </header>
+  <div id="nav_frame">
+    <nav>
+      <ul id="nav1">
+        <li><a href="index.html">Top</a></li>
+        <li><a href="concept.html">コンセプト</a></li>
+        <li><a href="rule.html">基本ルール</a></li>
+        <li><a href="coding.html">コーディング規約</a></li>
+        <li><a href="repo_list.html">Software list</a></li>
+        <li><a href="codes_list.html">codes list</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="main">
+    <!----------------------->
+    <!----------------------->
+    <div id="about">
+      <h2 class="mt0"><strong>公開済みソフトウェア一覧 (Software Repository list)</strong></h2>
+    </div>
+    <!----------------------->
+    <!----------------------->
+    <!-- SparseSolv        -->
+    <!----------------------->
+    <table>
+      <tr>
+        <th><h4 class="mt40"><strong>SparseSolv</strong></h4></th>
+        <th>
+          <h6>SparseMatrix and its solvers including shifted-ICCG</h6>          
+        </th>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <p>Main contributer: Takahiro Sato (Muroran institute of technology)</p>
+          <p><a href="https://github.com/JP-MARs/SparseSolv" target="_blank">repository is here!</a></p>
+        </th>
+      </tr>
+      <tr>
+        </th>
+        <td colspan="2">
+          <p>
+          &emsp;疎行列とその線形ソルバを提供するOSSです。FEMなどで必要な大規模疎行列を効果的に扱えます。電磁気のFEMに特有の特異行列を解く際に有効な加速係数付きICCG法を提供しています。<br>
+          &emsp;疎行列クラスは、C++用の行列OSSであるEigenのラッパとして定義されています。線形ソルバは独自実装のICCG法やMRTR法のほか、EigenやIntelコンパイラのソルバのラッパー機能もあります。<br>
+          &emsp;日本の磁界系研究者が開発したソルバの有用性を世界に発信することを意識しています<br>
+          </p>
+          <p>
+          &emsp;This OSS provides sparse matrices and their linear solvers. It effectively handles large sparse matrices required for FEM and similar applications. It includes a shifted-ICCG method with acceleration factors, particularly effective for solving singular matrices specific to electromagnetic FEM.<br>
+          &emsp;The sparse matrix class is defined as a wrapper for Eigen, a C++ matrix OSS. The linear solver includes oroginal the ICCG and MRTR methods, as well as wrapper functionality for Eigen and Intel Compiler solvers.<br>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <!----------------------->
+    <!----------------------->
+    <!-- MF-MeshConverter  -->
+    <!----------------------->
+    <table>
+      <tr>
+        <th><h4 class="mt40"><strong>MF-MeshConverter</strong></h4></th>
+        <th><h6>Mesh converter with modification functions</h6></th>
+      </tr>
+        <th colspan="2">
+          <p>Main contributer: Takahiro Sato (Muroran institute of technology)</p>
+          <p><a href="https://github.com/JP-MARs/SparseSolv" target="_blank">repository is here!</a></p>
+        </th>
+      <tr>
+        <td colspan="2">
+          <p>
+          &emsp;メッシュの形式変換と、メッシュ修正機能を統合したコマンドラインソフトウェアです。節点修正、材料ID変更、2D→3D積み上げなどの、メッシュを操作する処理をJSONで記述することで実施できます。実行形式とlib形式があり、単独使用や自作ソフトへの組み込み、どちらも可能です。<br>
+          </p>
+          <p>
+          &emsp;This command-line software integrates mesh format conversion and mesh modification functions. It enables node modification, material ID changes, 2D->3D stacking, and other mesh manipulation processes by describing them in JSON. Available in executable and library formats, it can be used standalone or embedded into custom software.<br>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!----------------------->
+    <!----------------------->
+    <!----------------------->
+    <!----------------------->
+    <!----------------------->
+    <!----------------------->
+  </div>
+</div>
+<footer>
+  <div id="footer_color">
+    <div id="copy">Copyright &copy; Project JP-MARs. All rights reserved.</div>
+    <!--この行は削除できません--><div id="flink"><a href="https://www.cis-trans.jp/">このHPは右記テンプレートで作成：研究室ホームページ</a></div><!--この行は削除できません-->
+  </div>
+</footer>
+</body>
+</html>

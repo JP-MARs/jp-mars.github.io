@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Project JP-MARs</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<link href="css/style.css" rel="stylesheet" media="all">
+</head>
+<body>
+<div id="container">
+  <header id="header">
+    <h1>Project JP-MARs  - An Open Source project for Research & Education - </h1>
+  </header>
+  <div id="nav_frame">
+    <nav>
+      <ul id="nav1">
+        <li><a href="index.html">Top</a></li>
+        <li><a href="concept.html">コンセプト</a></li>
+        <li><a href="rule.html">基本ルール</a></li>
+        <li><a href="coding.html">コーディング規約</a></li>
+        <li><a href="repo_list.html">Software list</a></li>
+        <li><a href="codes_list.html">codes list</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="main">
+    <!----------------------->
+    <!----------------------->
+    <div id="about">
+      <h2 class="mt0"><strong>JP-MARs 全体方針</strong></h2>
+      <p>JP-MARsプロジェクト全体に関する基本的な考え方について記載します。以降、あえて「オープンソース"ソフトウェア"(OSS)」と書かずにオープンソースと書きます。</p>
+    </div>
+    <!----------------------->
+    <!----------------------->
+    <div id="about">
+      <h3 class="mt0"><strong>コンセプト (Concept)</strong></h3>
+      <p>
+        &emsp;本JP-MARsプロジェクトは、大学や企業の工学・理学系の研究者などが利用できるソースコードの提供と、各研究者の研究成果をオープンな場で公開・共有する”場”の提供を目指しています。工学系の研究者の方だと、たとえば、
+        <ul>
+          <li>あの方法を試してみたいんだけど、自分で作るの面倒だな。凄いOSSに入っているけど、プロ仕様なので敷居が高いな・・・</li>
+          <li>社内ツールの構築に使えるOSSを探しているけど、凄いOSSはプロ仕様で導入が難しいな。改造もしたくなるだろうけど、コメントがないし中身を変えるのは無理そうだ。</li>
+          <li>自分の方法と従来手法を比較したいけど、従来法の実装例が欲しいな。わかりやすいOSSで、中身も見やすいものがあれば比較しやすいのに。</li>
+          <li>教科書では読んだ方法だけど実装方法がイメージつかないな。凄いOSSを見てもプロ仕様のコーディングでコメントもなくてわからないな。</li>
+        </ul>
+      </p>
+      <p>
+        というような状況は結構あるのではないでしょうか。<br>
+        &emsp;昨今は情報系でOSS文化が広く発展しており、情報系なら様々な方法がOSSとして提供されています。純情報系の研究者なら、便利なツールを使こなせる人が多く、上記のようなことはないかもしれません。しかし、工学・理学系の数値計算関連の研究者は、情報系ほど昨今のOSS文化に精通しておらず、OSSを使いこなすのはなかなか大変です。<br>
+        &emsp;そこで、JP-MARsプロジェクトでは、工学系の研究者らを対象として、研究成果に関するソースコードをオープン化し、共有する場の提供を目指します。
+        特に本JP-MARsプロジェクトとしては、<strong>実用性と教育性の両方を持つソースコードやOSSの提供</strong>の整備をイメージしています。「ある程度分かりやすく、コメントが多く」を目指して提供していきたいと思います。
+        言い換えれば、<strong>学術的な「参照用ソースコード」</strong>の提供、というとイメージが近いかもしれません。<br>
+        （ただし、特定の開発思想を強制するものではなく、各リポジトリが独自の目標や設計方針を持つことを尊重します。）<br>
+        &emsp;もし、JP-MARsプロジェクトのソースコードをベースにして、あなたが新しい方法を開発し、世に出した後は、ぜひその部分の追記コードをご提案ください。
+        そうして、徐々に「参照用ソースコード」が拡大していけばいいなと思います。実装の明瞭さ、数値的安定性、研究再現性を重視する姿勢を共有できる方々の協力を歓迎しています。<br>        
+      </p>
+    </div>
+    <div id="about">
+      <h3 class="mt0"><strong>全体ビジョン</strong></h3>
+      <p>
+        &emsp;JP-MARsプロジェクトは、工学系の技術者・研究者のための<strong>「透明性・信頼性・学術的整合性」を重視したOSS・ソースコードの提供・共有の場の構築</strong>を目的としています。<br>
+        &emsp;短期的な機能追加よりも、長期的な技術的一貫性を重視していきます。そして、過度に性能を追求せず、<strong>「実装の明瞭さ、数値的安定性、研究再現性を優先」</strong>を推奨し、研究者らが内部を理解しやすいようなソースコードの提供を目指します。<br>
+        &emsp;JP-MARsプロジェクト内で公開されるソースコードは、<strong>各リポジトリに明示されたライセンスに基づきオープンに提供</strong>されます。本プロジェクト内のソースコードを利用する方は、各リポジトリのライセンスやルールに従って適切に活用してください。<br>
+        &emsp;本JP-MARsプロジェクトは、技術の共有と発展を支える基盤として機能することを目指し、特定の営利活動や組織的支配構造を形成するものではありません。        
+      </p>
+      <p>
+        &emsp;なお、JP-MARsプロジェクト全体の基本方針は以上ですが、各リポジトリ毎に個別の目標を立てることは妨げません(商用展開の有無や提供形態は各プロジェクトにゆだねます)。
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div id="footer_color">
+    <div id="copy">Copyright &copy; Project JP-MARs. All rights reserved.</div>
+    <!--この行は削除できません--><div id="flink"><a href="https://www.cis-trans.jp/">このHPは右記テンプレートで作成：研究室ホームページ</a></div><!--この行は削除できません-->
+  </div>
+</footer>
+</body>
+</html>
